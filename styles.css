@@ -1,0 +1,43 @@
+/* Custom Styles */
+body {
+    background-color: #FFB74D;
+    /* You can choose any warm color you like */
+    background-image: url('imagen.png');
+    background-repeat: repeat;
+    animation: backgroundMovement 10s infinite linear;
+}
+
+h1, h2 {
+    color: #FF5722; /* Updated color for h1 and h2 */
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5722;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+label {
+    color: #FF5722; /* Added color for label */
+}
+
+@keyframes backgroundMovement {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
